@@ -1,7 +1,7 @@
 # Vulkan Wrapper Project
 
 ## 项目概述
-这是一个基于 Vulkan Tutorial 和 Xinzheng Zhao 课程的 Vulkan 封装器项目。该封装器对 Vulkan 原生 API 进行了高层抽象，旨在简化 Vulkan 资源管理和渲染管线的使用。
+Vulkan 封装器项目。该封装器对 Vulkan 原生 API 进行了高层抽象，旨在简化 Vulkan 资源管理和渲染管线的使用。
 Vulkan 是一个低开销、显式控制的图形 API，是 OpenGL 的替代者。然而，它的 API 设计非常底层，直接使用需要编写大量样板代码，例如手动管理资源生命周期、同步对象和命令缓冲区等。封装器的主要目标是：
 ### 简化代码：隐藏 Vulkan 的繁琐细节，例如对象的创建、销毁和错误检查。
 ### 提高安全性：通过 RAII（资源获取即初始化）自动管理资源，例如使用 std::shared_ptr 防止内存泄漏。
