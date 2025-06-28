@@ -68,9 +68,8 @@ private:
     make
 
 ## Dependencies
-
-GLM: A header-only library for OpenGL Mathematics, used for matrix and vector operations.
-GLFW: A library for creating windows with OpenGL/Vulkan contexts and managing input.
-Vulkan: The Vulkan API for rendering.
+    *GLM: A header-only library for OpenGL Mathematics, used for matrix and vector operations.
+    *GLFW: A library for creating windows with OpenGL/Vulkan contexts and managing input.
+    *Vulkan: The Vulkan API for rendering.
 
 在项目根目录下创建一个名为 thirdParty 的目录（相对于 ${CMAKE_CURRENT_SOURCE_DIR}/../thirdParty/），并将所需的库放置在此目录中。确保在 CMakeLists.txt 文件中正确指定了必要的包含路径和库路径，以便链接这些依赖项。
